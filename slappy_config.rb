@@ -15,6 +15,8 @@ Slappy.configure do |config|
   #   Slappy load scripts in this directory.
   config.scripts_dir_path = 'slappy-scripts'
 
+  config.lib_dir_path = 'config'
+
   ## Default parameters
   #
   # There parameters use in say method when send to Slack.

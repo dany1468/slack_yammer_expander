@@ -1,6 +1,5 @@
 require 'pry'
 require 'yammer'
-require './config/yammer'
 
 hear "https://www.yammer.com/#{ENV['YAMMER_NETWORK_NAME']}/#/Threads/show\\?threadId=(\\d*)" do |event|
   thread_id = event.matches[1]
