@@ -34,7 +34,3 @@ Get access token from redirected url, and Set YAMMER_ACCESS_TOKEN env.
 ```
 > bundle exec slappy start
 ```
-
-### TODO
-
-- Yammer の API token の取得方法の記載
